@@ -33,7 +33,7 @@ nav ul {
   padding: 0;
   background-color: #5a92da;
   list-style: none;
-  font-size: 2rem;
+  font-size: 1.3rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -82,10 +82,7 @@ nav ul li:hover {
   nav {
     padding: 0 2em;
   }
-  nav h1 {
-    font-size: 3.1em;
-    font-weight: 800;
-  }
+  
   nav ul {
     position: initial;
     font-size: 1.1em;
