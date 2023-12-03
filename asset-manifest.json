@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/TSYP_challenge/static/css/main.5c876c90.css",
+    "main.js": "/TSYP_challenge/static/js/main.d898adeb.js",
+    "static/js/787.e2fe5373.chunk.js": "/TSYP_challenge/static/js/787.e2fe5373.chunk.js",
+    "static/media/pillar.webp": "/TSYP_challenge/static/media/pillar.20c737531a44e119dc8b.webp",
+    "static/media/first.webp": "/TSYP_challenge/static/media/first.ff9276ffb30349ef9145.webp",
+    "static/media/logo.webp": "/TSYP_challenge/static/media/logo.e3bfcc0778efdec63b37.webp",
+    "static/media/box.webp": "/TSYP_challenge/static/media/box.32545c71a70c469d9b28.webp",
+    "index.html": "/TSYP_challenge/index.html",
+    "main.5c876c90.css.map": "/TSYP_challenge/static/css/main.5c876c90.css.map",
+    "main.d898adeb.js.map": "/TSYP_challenge/static/js/main.d898adeb.js.map",
+    "787.e2fe5373.chunk.js.map": "/TSYP_challenge/static/js/787.e2fe5373.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c876c90.css",
+    "static/js/main.d898adeb.js"
+  ]
+}
