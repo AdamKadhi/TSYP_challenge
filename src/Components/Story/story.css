@@ -2,11 +2,13 @@
 .section1 {
   min-height: 100vh;
   padding: 11vh 3vh 2vh;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 2em;
+  
 }
 .right_s1{
     display: flex;

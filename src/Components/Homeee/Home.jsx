@@ -4,10 +4,10 @@ import logo from "../imgs/logo.webp";
 import firstimg from "../imgs/first.webp";
 import pillar from "../imgs/pillar.webp";
 import box from "../imgs/box.webp"
+import TransitionWrapper from "../TransitionWrapper";
 const Home = () => {
-  
-
   return (
+    <TransitionWrapper>
     <div className="home_page">
       
 
@@ -96,6 +96,7 @@ const Home = () => {
         <p>All Rights Reserved.</p>
     </footer>
     </div>
+    </TransitionWrapper>
   );
 };
 

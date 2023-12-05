@@ -46,8 +46,14 @@
     display: flex;
     gap: .5em;
     border-top: 1px solid rgb(142, 142, 142);
-    color: rgb(142, 142, 142);
     font-size: .9em;
+}
+.article_desc a{
+    text-decoration: none;
+    color: rgb(142, 142, 142);
+}
+.article_desc a:hover{
+    color: rgb(104, 104, 104);
 }
 
 .popular_articles{
@@ -69,6 +75,11 @@
     display: flex;
     gap: .5em;
     margin-top: 2em;
+    text-decoration: none;
+    color: #2f4663;
+}
+.pop_article:hover{
+    color:#3272c6 ;
 }
 .pop_article img{
     width: 7em;

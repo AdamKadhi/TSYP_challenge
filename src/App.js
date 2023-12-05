@@ -12,7 +12,7 @@ function App() {
   const toggleNav = () => {
     setNavOpen(!isNavOpen);
   };
-  const navigate=useNavigate()
+  const navigate = useNavigate();
   const scrollToAndNavigate = (destination) => {
     window.scrollTo(0, 0);
     navigate(destination);
@@ -27,11 +27,15 @@ function App() {
             <button className="close_nav_butt" onClick={toggleNav}>
               &times;
             </button>
-            <li onClick={()=>scrollToAndNavigate("/")}>Home</li>
-            <li onClick={()=>scrollToAndNavigate("/useful_ressources")}>Useful Resources</li>
-            <li onClick={()=>scrollToAndNavigate("/story_telling")} >Storytelling</li>
-            <li>Quotes</li>
-            <li onClick={()=>scrollToAndNavigate("/games")}>Games</li>
+            <li onClick={() => scrollToAndNavigate("/")}>Home</li>
+            <li onClick={() => scrollToAndNavigate("/useful_ressources")}>
+              Useful Resources
+            </li>
+            <li onClick={() => scrollToAndNavigate("/story_telling")}>
+              Storytelling
+            </li>
+            
+            <li onClick={() => scrollToAndNavigate("/games")}>Quizizz</li>
             <li>Statistics</li>
           </ul>
           <button className="open_nav_butt" onClick={toggleNav}>
@@ -40,12 +44,11 @@ function App() {
         </nav>
       </header>
       <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/story_telling" element={<Story/>} />
-        <Route path="/useful_ressources" element={<UsefulR/>} />
-        <Route path="/games" element={<Game/>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/story_telling" element={<Story />} />
+        <Route path="/useful_ressources" element={<UsefulR />} />
+        <Route path="/games" element={<Game />} />
       </Routes>
-      
     </div>
   );
 }

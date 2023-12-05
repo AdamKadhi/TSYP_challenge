@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import questions from "./questions";
 import "./game.css";
-
+import TransitionWrapper from "../TransitionWrapper";
+import bg from "../imgs/v.jpg"
 function shuffle(array) {
   const shuffledArray = [...array];
   for (let i = shuffledArray.length - 1; i > 0; i--) {
@@ -74,9 +75,17 @@ export default function Game() {
   }, []);
   const alphabet=["A","B","C","D"]
   return (
+    <TransitionWrapper>
     <div className="gamesec">
+        <div className="game_sec_land">
+            <img src={bg} alt="" />
+            <div>
+            <h1>Challenge your knowledge, boost your skills!</h1>
+            <button><a href="#quiz">Take the quiz now!</a></button>
+            </div>
+        </div>
     <div className="game_section">
-      <h1>Quiz</h1>
+      <h1 id="quiz">Quiz</h1>
       <div className="quiz">
         <h2 id="question">{questionText}</h2>
         <div id="answer-buttons">
@@ -94,13 +103,18 @@ export default function Game() {
             </button>
           ))}
         </div>
-        { showNextButton && (
+        {/* { showNextButton && (
           <button id="next-button" onClick={handleNextButton}>
             Next
           </button>
-        )}
+        )} */}
+        
+          <button className={showNextButton?"show_next":null} id="next-button" onClick={handleNextButton}>
+            Next
+          </button>
       </div>
     </div>
     </div>
+    </TransitionWrapper>
   );
 }

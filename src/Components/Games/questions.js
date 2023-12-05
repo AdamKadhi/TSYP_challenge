@@ -1,94 +1,59 @@
 const questions = [
     {
-        question: "What is the capital of France?",
+        question: "What is the 'Power Hour' in the context of well-being?",
         choices: [
-            { text: "London", answer: false },
-            { text: "Paris", answer: true },
-            { text: "Rome", answer: false },
-            { text: "Madrid", answer: false },
+            { text: "One hour of intense physical exercise", answer: false },
+            { text: "An hour dedicated to mindfulness and self-care activities", answer: true },
+            { text: "A productivity technique for efficient studying", answer: false },
+            { text: "A recommended daily sleep duration", answer: false },
         ],
     },
     {
-        question: "Who painted the Mona Lisa?",
+        question: "What is the 'Blue Zone' concept in the study of longevity and well-being?",
         choices: [
-            { text: "Leonardo da Vinci", answer: true },
-            { text: "Pablo Picasso", answer: false },
-            { text: "Vincent van Gogh", answer: false },
-            { text: "Michelangelo", answer: false },
+            { text: "A designated area for outdoor physical activities", answer: false },
+            { text: "Regions where people live longer and healthier lives", answer: true },
+            { text: "A type of meditation zone for stress reduction", answer: false },
+            { text: "A technology-free zone promoting mental health", answer: false },
         ],
     },
     {
-        question: "What is the largest planet in our solar system?",
+        question: "What role does 'Power Napping' play in maintaining optimal well-being??",
         choices: [
-            { text: "Mercury", answer: false },
-            { text: "Venus", answer: false },
-            { text: "Jupiter", answer: true },
-            { text: "Venus", answer: false },
+            { text: "Boosting energy and productivity", answer: true },
+            { text: "Reducing water consumption", answer: false },
+            { text: "Enhancing muscle strength", answer: false },
+            { text: "Improving memory and concentration", answer: false },
         ],
     },
     {
-        question: "Who wrote the novel 'Pride and Prejudice'?",
+        question: "What does the term 'Tech Detox' refer to in the context of a healthy lifestyle?",
         choices: [
-            { text: "Jane Austen", answer: true },
-            { text: "Charles Dickens", answer: false },
-            { text: "Mark Twain", answer: false },
-            { text: "William Shakespeare", answer: false },
+            { text: "A break from using electronic devices to reduce screen time", answer: true },
+            { text: "A specialized diet plan using technology for meal tracking", answer: false },
+            { text: "A workout routine incorporating technological gadgets", answer: false },
+            { text: "A mental exercise app for stress relief", answer: false },
         ],
     },
     {
-        question: "What is the chemical symbol for gold?",
+        question: "What does the term 'Mindful Breathing' involve in the context of well-being?",
         choices: [
-            { text: "Au", answer: true },
-            { text: "Ag", answer: false },
-            { text: "Cu", answer: false },
-            { text: "Fe", answer: false },
+            { text: "Holding your breath for an extended period", answer: false },
+            { text: "Rapid, shallow breathing to increase alertness", answer: false },
+            { text: "Focusing on the breath to enhance awareness and reduce stress", answer: true },
+            { text: "Controlled breathing exercises for weight loss", answer: false },
         ],
     },
     {
-        question: "Who invented the telephone?",
+        question: "How does the concept of 'Social Capital' contribute to overall well-being?",
         choices: [
-            { text: "Thomas Edison", answer: false },
-            { text: "Alexander Graham Bell", answer: true },
-            { text: "Nikola Tesla", answer: false },
-            { text: "Albert Einstein", answer: false },
+            { text: "Accumulating financial wealth for a comfortable lifestyle", answer: false },
+            { text: "Building strong social connections and networks", answer: true },
+            { text: "Investing in physical fitness programs", answer: false },
+            { text: "Developing strategies for effective time management", answer: false },
         ],
     },
-    {
-        question: "What is the tallest mountain in the world?",
-        choices: [
-            { text: "Mount Everest", answer: true },
-            { text: "K2", answer: false },
-            { text: "Kilimanjaro", answer: false },
-            { text: "Matterhorn", answer: false },
-        ],
-    },
-    {
-        question: "Which country is known as the 'Land of the Rising Sun'?",
-        choices: [
-            { text: "Japan", answer: true },
-            { text: "China", answer: false },
-            { text: "South Korea", answer: false },
-            { text: "India", answer: false },
-        ],
-    },
-    {
-        question: "Who is the author of the Harry Potter book series?",
-        choices: [
-            { text: "J.K. Rowling", answer: true },
-            { text: "Stephen King", answer: false },
-            { text: "George R.R. Martin", answer: false },
-            { text: "Dan Brown", answer: false },
-        ],
-    },
-    {
-        question: "What is the largest ocean in the world?",
-        choices: [
-            { text: "Pacific Ocean", answer: true },
-            { text: "Atlantic Ocean", answer: false },
-            { text: "Indian Ocean", answer: false },
-            { text: "Arctic Ocean", answer: false },
-        ],
-    },
+    
 ];
 
 export default questions;

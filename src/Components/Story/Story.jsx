@@ -3,9 +3,11 @@ import "./story.css";
 import StoryCard from "./StoryCard";
 import papers from "../imgs/papers.png";
 import sucess from "../imgs/sucess.png"
+import TransitionWrapper from "../TransitionWrapper";
 const Story = () => {
     
   return (
+    <TransitionWrapper>
     <div className="story_section">
       {/* ********** Section 1 *************** */}
       <div className="section1">
@@ -27,7 +29,7 @@ const Story = () => {
 
       {/* ********** Section 1 *************** */}
       <div className="section2">
-        <h1>bla bla bla blbalba blablal balbla</h1>
+        <h1>Your story matters, share it here and let it shine.</h1>
         
         <div id="sec3" className="post_box">
             
@@ -63,6 +65,7 @@ const Story = () => {
         <StoryCard />
       </div>
     </div>
+    </TransitionWrapper>
   );
 };
 
