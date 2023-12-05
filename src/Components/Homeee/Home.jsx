@@ -1,50 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import "./home.css";
 import logo from "../imgs/logo.webp";
 import firstimg from "../imgs/first.webp";
 import pillar from "../imgs/pillar.webp";
 import box from "../imgs/box.webp"
 const Home = () => {
-  const [isNavOpen, setNavOpen] = useState(false);
-
-  const toggleNav = () => {
-    setNavOpen(!isNavOpen);
-  };
+  
 
   return (
     <div className="home_page">
-      {/* ********** Navbar ****************** */}
-      <header>
-        <nav>
-          <img src={logo} alt="" />
-          <ul className={`nav_list ${isNavOpen ? "close_nav" : ""}`}>
-            <button className="close_nav_butt" onClick={toggleNav}>
-              &times;
-            </button>
-            <a href="">
-              <li>Home</li>
-            </a>
-            <a href="">
-              <li>Useful Resources</li>
-            </a>
-            <a href="">
-              <li>Storytelling</li>
-            </a>
-            <a href="">
-              <li>Quotes</li>
-            </a>
-            <a href="">
-              <li>Games</li>
-            </a>
-            <a href="">
-              <li>Statistics</li>
-            </a>
-          </ul>
-          <button className="open_nav_butt" onClick={toggleNav}>
-            &#9776;
-          </button>
-        </nav>
-      </header>
+      
 
       {/* *********** Section 1 ******************* */}
       <div className="section_1">
@@ -74,7 +39,7 @@ const Home = () => {
             keeping both your body and mind in top shape. We believe in easy,
             effective self-care, and this space is all about helping you achieve
             that during your university adventure. Dive into our articles, soak
-            up the positive vibes, anTd let's make your wellbeing journey a
+            up the positive vibes, and let's make your wellbeing journey a
             breeze!
           </p>
           <button>TAKE YOUR TEST</button>
