@@ -4,6 +4,9 @@ import StoryCard from "./StoryCard";
 import papers from "../imgs/papers.png";
 import sucess from "../imgs/sucess.png"
 import TransitionWrapper from "../TransitionWrapper";
+import Snackbar from '@mui/material/Snackbar';
+import IconButton from '@mui/material/IconButton';
+import AccessTimeIcon from '@mui/icons-material/AccessTime';
 const Story = () => {
     const stories=[
       {
@@ -31,6 +34,35 @@ const Story = () => {
         job:"Media Executive, TV Host, Philanthropist.",
       },
     ]
+    const [open, setOpen] = React.useState(false);
+
+  const handleClick = () => {
+    setOpen(true);
+  };
+
+  const handleClose = (event, reason) => {
+    if (reason === 'clickaway') {
+      return;
+    }
+
+    setOpen(false);
+  };
+
+  const action = (
+    <React.Fragment>
+      
+      <IconButton
+        size="small"
+        aria-label="close"
+        color="inherit"
+        onClick={handleClose}
+      >
+        
+        <AccessTimeIcon></AccessTimeIcon>
+        <p id="pending">Pending</p>
+      </IconButton>
+    </React.Fragment>
+  );
   return (
     <TransitionWrapper>
     <div className="story_section">
@@ -73,11 +105,17 @@ const Story = () => {
                     <label>Story</label>
                     <textarea placeholder="Enter your message here" name="" id="" cols="30" rows="10"></textarea>
                 </div>
-                <button>POST <i className="fa-solid fa-paper-plane"></i> </button>
+                <button type="button" onClick={handleClick} >POST <i className="fa-solid fa-paper-plane"></i> </button>
                 </div>
                 
             </form>
-            
+            <Snackbar
+        open={open}
+        autoHideDuration={2500}
+        onClose={handleClose}
+        message="Thanks For Sharing."
+        action={action}
+      />
           <div   className="post_box_right">
             <img  src={papers} alt="" />
           </div>

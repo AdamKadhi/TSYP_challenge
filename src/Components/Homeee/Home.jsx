@@ -5,7 +5,39 @@ import firstimg from "../imgs/first.webp";
 import pillar from "../imgs/pillar.webp";
 import box from "../imgs/box.webp"
 import TransitionWrapper from "../TransitionWrapper";
+import Snackbar from '@mui/material/Snackbar';
+import IconButton from '@mui/material/IconButton';
+import ThumbUpAltIcon from '@mui/icons-material/ThumbUpAlt';
 const Home = () => {
+  const [open, setOpen] = React.useState(false);
+
+  const handleClick = () => {
+    setOpen(true);
+  };
+
+  const handleClose = (event, reason) => {
+    if (reason === 'clickaway') {
+      return;
+    }
+
+    setOpen(false);
+  };
+
+  const action = (
+    <React.Fragment>
+      
+      <IconButton
+        size="small"
+        aria-label="close"
+        color="inherit"
+        onClick={handleClose}
+      >
+        
+        <ThumbUpAltIcon></ThumbUpAltIcon>
+        
+      </IconButton>
+    </React.Fragment>
+  );
   return (
     <TransitionWrapper>
     <div className="home_page">
@@ -71,8 +103,15 @@ const Home = () => {
                     <input type="text"   placeholder="Enter your message here" />
                 </div>
                 </div>
-                <button>SEND <i className="fa-solid fa-paper-plane"></i> </button>
+                <button onClick={handleClick} type="reset" >SEND <i className="fa-solid fa-paper-plane"></i> </button>
             </form>
+            <Snackbar
+        open={open}
+        autoHideDuration={2500}
+        onClose={handleClose}
+        message="Thanks For Your Feedback"
+        action={action}
+      />
             </div>
       </div>
     {/* *********** Section 4 ******************* */}
