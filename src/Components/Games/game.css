@@ -95,7 +95,7 @@
   font-size: 1.2em;
   font-weight: 500;
   width: 100%;
-  height: 3em;
+  min-height: 3em;
   outline: none;
   padding: 10px;
   margin: 10px 0;

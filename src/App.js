@@ -6,6 +6,7 @@ import Story from "./Components/Story/Story";
 import { Route, Routes, useNavigate } from "react-router-dom";
 import UsefulR from "./Components/Ressources/UsefulR";
 import Game from "./Components/Games/Game";
+import Chatbot from "./Components/Chatbot/Chatbot";
 function App() {
   const [isNavOpen, setNavOpen] = useState(false);
 
@@ -49,6 +50,9 @@ function App() {
         <Route path="/useful_ressources" element={<UsefulR />} />
         <Route path="/games" element={<Game />} />
       </Routes>
+      <div className="chatbott">
+        <Chatbot/>
+      </div>
     </div>
   );
 }

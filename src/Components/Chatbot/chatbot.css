@@ -1,0 +1,74 @@
+#chaticon {
+  position: absolute;
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 0.5em;
+  cursor: pointer;
+  width: 3em;
+}
+.rsc {
+  overflow-y: hidden !important;
+}
+.dPdbIW {
+  position: fixed !important;
+  bottom: 15px !important;
+  right: 20px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  animation: slideIn 0.3s ease-out;
+}
+
+.hQsUiY ,.cRmLCo{
+    background-color: #5a92da !important;
+}
+.ipSaXD{
+    background-color: #13469B !important;
+}
+@keyframes slideIn {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+.glfuN{
+background-color: #13469B !important;
+}
+
+#close_butt{
+    position: fixed;
+    font-size: 1.2em;
+    bottom: 497px;
+    right: 30px;
+    z-index: 99999;
+    background: transparent;
+    border: none;
+    outline: none;
+    animation: slideIn 0.5s ease-out;
+    cursor: pointer;
+    color: white;
+}
+
+@media screen and (max-width: 568px) {
+  .dPdbIW {
+    border-radius: 0px !important;
+  }
+  .fBGGBn{
+    height: fit-content !important;
+  }
+  .glfuN{
+    padding: .7em 1.5em !important;
+  }
+  #close_butt{
+    top: 16px;
+    bottom: initial;
+  }
+}
