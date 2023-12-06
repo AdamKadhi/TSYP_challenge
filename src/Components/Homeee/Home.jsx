@@ -52,7 +52,7 @@ const Home = () => {
           <p>
             We're here to support your physical and mental wellbeing journey.
           </p>
-          <button>Get Started</button>
+          <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdq3-3HPy-kb8CFs_o9Rv4k91EcLarcgSHBkxkdeEtynQuEMg/viewform?usp=send_form">Get Started</a>
         </div>
         <div className="s1_right">
           <img src={firstimg} alt="" />
@@ -74,7 +74,7 @@ const Home = () => {
             up the positive vibes, and let's make your wellbeing journey a
             breeze!
           </p>
-          <button>TAKE YOUR TEST</button>
+          <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdq3-3HPy-kb8CFs_o9Rv4k91EcLarcgSHBkxkdeEtynQuEMg/viewform?usp=send_form">TAKE YOUR TEST</a> 
         </div>
       </div>
 
@@ -120,7 +120,7 @@ const Home = () => {
             <img src={box} alt="" />
             <h1>Fueling Success Through Student Well-Being. </h1>
             <h2>Your journey begins today!</h2>
-            <button>Try Now</button>
+            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdq3-3HPy-kb8CFs_o9Rv4k91EcLarcgSHBkxkdeEtynQuEMg/viewform?usp=send_form">Try Now</a>
         </div>
     </div>
 
@@ -128,9 +128,12 @@ const Home = () => {
     <footer>
         <img src={logo} alt="" />
         <div className="social">
-        <i className="fa-brands fa-facebook"></i>
-        <i className="fa-brands fa-instagram"></i>
-        <i className="fa-brands fa-twitter"></i>
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=61554376794735"><i className="fa-brands fa-facebook"></i></a>
+        <a target="_blank" href="https://www.instagram.com/stude.ntwellbeing?igshid=NGVhN2U2NjQ0Yg%3D%3D&fbclid=IwAR3PSpBgdPuMYULcHNWpQ-pZd1JvAKOp_bVAqyUYfRbQa_LUCNY5-_L5hb8"><i className="fa-brands fa-instagram"></i></a>
+        <a target="_blank" href=""><i class="fa-brands fa-linkedin"></i></a>
+        
+        
+        
         </div>
         <p>All Rights Reserved.</p>
     </footer>

@@ -19,19 +19,19 @@ const Story = () => {
         pdp:"https://2c37752f54ecff3aa6de.b-cdn.net/wp-content/uploads/2022/08/21-thegem-person.png",
         name:"Nick Vujicic",
         description:"Nick Vujicic, born without limbs, has transformed his life into a powerful story of resilience and inspiration. Overcoming profound physical challenges, Nick has become a renowned motivational speaker, author, and founder of the Life without Limbs organization. His journey serves as a beacon of hope for everyone, showcasing that even in the face of adversity, one can achieve remarkable success. Nick's story emotionally empowers us, illustrating the strength of the human spirit. His unwavering positivity and ability to overcome personal struggles offer a source of inspiration for facing challenges head-on. Academically, Nick's journey encourages a growth mindset, highlighting the power of determination and a positive outlook in navigating academic pursuits. Physically, he embodies the importance of adaptation and finding strength within oneself. Reading about Nick Vujicic's life isn't just a recounting of personal triumph; it's an indirect source of motivation for students to embrace their uniqueness, surmount obstacles, and cultivate a holistic sense of well-being—academically, emotionally, and physically.",
-        job:"Media Executive, TV Host, Philanthropist.",
+        job:"Motivational speaker, Author",
       },
       {
         pdp:"https://dohadebates.com/wp-content/uploads/2022/03/GettyImages-1193568870-scaled-e1647965192243.jpg",
         name:"Malala Yousafzai",
         description:"Malala Yousafzai, a beacon of courage and resilience, emerged as a global advocate for education and girls' rights despite Facing immense adversity. Born in Pakistan's Swat Valley, Malala defied the oppressive Taliban regime that sought to deny education to girls. Surviving an assassination attempt, she not only recovered but continued her fight for education on the international stage. Her unwavering commitment to education underscores the transformative power of knowledge. By standing up for her right to learn, Malala empowers students to cherish their educational opportunities, fostering academic resilience. Her story teaches that even in the darkest times, one can find strength through education and determination.",
-        job:"Media Executive, TV Host, Philanthropist.",
+        job:"Author, Activist, Co-founder of the Malala Fund",
       },
       {
         pdp:"https://www.tunisienumerique.com/wp-content/uploads/2023/10/lamia-hakim-1200x971.jpg",
         name:"Lamia Hakim",
         description:"Lamia Hakim, a pioneering Tunisian, made history as the world's first 'child of the moon' to earn a Ph.D. in Biological Sciences. Overcoming the challenges of xeroderma pigmentosum, a rare genetic disorder, Lamia, at 30, exemplified unwavering determination and familial support on her arduous academic journey. Her groundbreaking thesis, 'Genetic Foundations of Phenotypic Expression in Coronilla scorpioïdes,' received high honors. Lamia's radiant smile and resilient spirit now inspire students worldwide, proving that with hope and determination, one can transform adversity into achievement. Lamia Hakim stands as a beacon of inspiration, demonstrating the extraordinary results of willpower in the pursuit of academic and personal success.",
-        job:"Media Executive, TV Host, Philanthropist.",
+        job:"Doctor of biological sciences",
       },
     ]
     const [open, setOpen] = React.useState(false);

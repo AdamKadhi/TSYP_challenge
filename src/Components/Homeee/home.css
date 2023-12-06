@@ -23,7 +23,7 @@
     color: #C7DFFF;
     font-size: 1.2em;
 }
-.s1_left button{
+.s1_left a{
     font-size: 1.1em;
     padding: .5em 1em;
     border-radius: 5em;
@@ -33,7 +33,9 @@
     background-color: #7CA8E0;
     cursor: pointer;
 }
-.s1_left button:hover{
+
+
+.s1_left a:hover{
     background-color: white;
     color: #2663B0;
 }
@@ -95,10 +97,9 @@
     color: #2663B0;
 }
 
-.s2_right button{
+.s2_right a{
     padding: .5em 1em;
     border-radius: 10em;
-    color: #C7DFFF;
     background-color: #13469B;
     border: none;
     outline: none;
@@ -107,9 +108,11 @@
     font-weight: 500;
     margin: 0 auto;
 }
+.s2_right a{
+    color: #C7DFFF;
+}
 .s2_right button:hover{
     background-color: #2663B0;
-    color: #C7DFFF;
 }
 @media (min-width: 960px) {
     .section_2{
@@ -123,7 +126,7 @@
     .s2_left{
         width: 25em ;
     }
-    .s2_right button{
+    .s2_right a{
         margin: 0 !important;
     }
 }
@@ -250,7 +253,7 @@
     font-size: 1.1em;
 
 }
-.s4_box button{
+.s4_box a{
     border-radius: 10em;
     font-size: .9em;
     padding: .5em 1em;
@@ -260,7 +263,7 @@
     background-color: white;
     cursor: pointer;
 }
-.s4_box button:hover{
+.s4_box a:hover{
     background: transparent;
     color: white;
 }
