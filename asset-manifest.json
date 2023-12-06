@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TSYP_challenge/static/css/main.2cee3ca8.css",
-    "main.js": "/TSYP_challenge/static/js/main.36b50799.js",
+    "main.css": "/TSYP_challenge/static/css/main.1938406f.css",
+    "main.js": "/TSYP_challenge/static/js/main.344c8918.js",
     "static/js/787.e2fe5373.chunk.js": "/TSYP_challenge/static/js/787.e2fe5373.chunk.js",
     "static/media/v.jpg": "/TSYP_challenge/static/media/v.8b920bea9756b1f2ec05.jpg",
     "static/media/papers.png": "/TSYP_challenge/static/media/papers.ab7014b8ef7b043f62cd.png",
@@ -13,12 +13,12 @@
     "static/media/sucess.png": "/TSYP_challenge/static/media/sucess.816e2938ce7f1ddc641d.png",
     "static/media/box.webp": "/TSYP_challenge/static/media/box.32545c71a70c469d9b28.webp",
     "index.html": "/TSYP_challenge/index.html",
-    "main.2cee3ca8.css.map": "/TSYP_challenge/static/css/main.2cee3ca8.css.map",
-    "main.36b50799.js.map": "/TSYP_challenge/static/js/main.36b50799.js.map",
+    "main.1938406f.css.map": "/TSYP_challenge/static/css/main.1938406f.css.map",
+    "main.344c8918.js.map": "/TSYP_challenge/static/js/main.344c8918.js.map",
     "787.e2fe5373.chunk.js.map": "/TSYP_challenge/static/js/787.e2fe5373.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cee3ca8.css",
-    "static/js/main.36b50799.js"
+    "static/css/main.1938406f.css",
+    "static/js/main.344c8918.js"
   ]
 }
