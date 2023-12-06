@@ -1,23 +1,20 @@
 import React from "react";
 import pdp from "../imgs/pdp.webp";
-const StoryCard = () => {
+const StoryCard = ({el}) => {
   return (
     <div className="story_card">
       <div className="card_top">
         <div className="info">
-          <img src={pdp} alt="" />
+          <img src={el.pdp} alt="" />
           <div>
-            <h3>Adam Kadhi</h3>
-            <p>adamkadhi345@gmail.com</p>
+            <h3>{el.name}</h3>
+            <p>{el.job}</p>
           </div>
         </div>
-        <span>Doctor</span>
+        
       </div>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi deserunt
-        ullam a atque dolorum porro corporis consequatur, maiores, explicabo
-        tempora voluptatem quo. Qui aliquid laboriosam fugit necessitatibus
-        maiores cum labore?
+        {el.description}
       </p>
       <div>
       <i className="fa-solid fa-thumbs-up"></i>

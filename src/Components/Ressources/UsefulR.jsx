@@ -59,7 +59,7 @@ const UsefulR = () => {
         <div className="articles">
           <h1>Useful Ressources</h1>
           {articles.map((el) => (
-            <RessourceCard el={el} />
+            <RessourceCard key={el.title} el={el} />
           ))}
         </div>
         <div  className="popular_articles">
