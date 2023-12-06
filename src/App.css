@@ -78,9 +78,7 @@ header {
   nav ul li:hover {
     color: #ffffff;
   }
-  .close_nav {
-    transform: translate(-100%);
-  }
+  
   .close_nav_butt {
     position: absolute;
     top: 0;
@@ -101,6 +99,11 @@ header {
     outline: none;
     cursor: pointer;
     padding: 0;
+  }
+  @media (max-width: 895px) {
+    .close_nav {
+      transform: translate(-100%);
+    }
   }
   @media (min-width: 895px) {
     .close_nav_butt,

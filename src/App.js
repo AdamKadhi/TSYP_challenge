@@ -7,6 +7,7 @@ import { Route, Routes, useNavigate } from "react-router-dom";
 import UsefulR from "./Components/Ressources/UsefulR";
 import Game from "./Components/Games/Game";
 import Chatbot from "./Components/Chatbot/Chatbot";
+import { useEffect } from "react";
 function App() {
   const [isNavOpen, setNavOpen] = useState(false);
 
@@ -16,8 +17,12 @@ function App() {
   const navigate = useNavigate();
   const scrollToAndNavigate = (destination) => {
     window.scrollTo(0, 0);
+    toggleNav();
     navigate(destination);
   };
+  const [clicked, setclicked] = useState(0)
+  
+  
   return (
     <div className="App">
       {/* ********** Navbar ****************** */}
@@ -28,7 +33,7 @@ function App() {
             <button className="close_nav_butt" onClick={toggleNav}>
               &times;
             </button>
-            <li onClick={() => scrollToAndNavigate("/")}>Home</li>
+            <li onClick={() => scrollToAndNavigate("/TSYP_challenge")}>Home</li>
             <li onClick={() => scrollToAndNavigate("/useful_ressources")}>
               Useful Resources
             </li>
@@ -45,7 +50,7 @@ function App() {
         </nav>
       </header>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/TSYP_challenge" element={<Home />} />
         <Route path="/story_telling" element={<Story />} />
         <Route path="/useful_ressources" element={<UsefulR />} />
         <Route path="/games" element={<Game />} />

@@ -16,11 +16,6 @@ const StoryCard = ({el}) => {
       <p>
         {el.description}
       </p>
-      <div>
-      <i className="fa-solid fa-thumbs-up"></i>
-      <i className="fa-solid fa-envelope"></i>
-      <i className="fa-solid fa-heart"></i>
-      </div>
     </div>
   );
 };
