@@ -105,7 +105,7 @@ const Story = () => {
                     <label>Story</label>
                     <textarea placeholder="Enter your message here" name="" id="" cols="30" rows="10"></textarea>
                 </div>
-                <button type="button" onClick={handleClick} >POST <i className="fa-solid fa-paper-plane"></i> </button>
+                <button type="reset" onClick={handleClick} >POST <i className="fa-solid fa-paper-plane"></i> </button>
                 </div>
                 
             </form>
