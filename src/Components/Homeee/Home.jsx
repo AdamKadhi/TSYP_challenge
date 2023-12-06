@@ -130,7 +130,7 @@ const Home = () => {
         <div className="social">
         <a target="_blank" href="https://www.facebook.com/profile.php?id=61554376794735"><i className="fa-brands fa-facebook"></i></a>
         <a target="_blank" href="https://www.instagram.com/stude.ntwellbeing?igshid=NGVhN2U2NjQ0Yg%3D%3D&fbclid=IwAR3PSpBgdPuMYULcHNWpQ-pZd1JvAKOp_bVAqyUYfRbQa_LUCNY5-_L5hb8"><i className="fa-brands fa-instagram"></i></a>
-        <a target="_blank" href=""><i class="fa-brands fa-linkedin"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/wellbeing-campus-0a37272a2/?fbclid=IwAR1lprkZVZ85PHoEU2y65k9ne0itvJGlUP0v2Q3-CC4r1_bvANWjkSuepIw"><i class="fa-brands fa-linkedin"></i></a>
         
         
         
