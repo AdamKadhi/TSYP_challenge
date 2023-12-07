@@ -7,7 +7,8 @@ import { Route, Routes, useNavigate } from "react-router-dom";
 import UsefulR from "./Components/Ressources/UsefulR";
 import Game from "./Components/Games/Game";
 import Chatbot from "./Components/Chatbot/Chatbot";
-import { useEffect } from "react";
+import Stats from "./Components/Stats/Stats";
+
 function App() {
   const [isNavOpen, setNavOpen] = useState(false);
 
@@ -20,7 +21,6 @@ function App() {
     toggleNav();
     navigate(destination);
   };
-  const [clicked, setclicked] = useState(0)
   
   
   return (
@@ -42,7 +42,7 @@ function App() {
             </li>
             
             <li onClick={() => scrollToAndNavigate("/games")}>Quizizz</li>
-            <li>Statistics</li>
+            <li onClick={() => scrollToAndNavigate("/statistics")}>Statistics</li>
           </ul>
           <button className="open_nav_butt" onClick={toggleNav}>
             &#9776;
@@ -54,6 +54,7 @@ function App() {
         <Route path="/story_telling" element={<Story />} />
         <Route path="/useful_ressources" element={<UsefulR />} />
         <Route path="/games" element={<Game />} />
+        <Route path="/statistics" element={<Stats />} />
       </Routes>
       <div className="chatbott">
         <Chatbot/>
